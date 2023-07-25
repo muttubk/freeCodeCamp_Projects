@@ -1,0 +1,83 @@
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
+body{
+  /* text-align: center; */
+  margin:0;
+  padding: 30px 6px;
+}
+
+main{
+  background-color: #eee;
+  padding: 15px;
+}
+
+#title{
+  padding-top: 60px;
+  font-size: 2.5rem;
+  text-align: center;
+}
+#description{
+  font-weight: 300;
+  text-align: center;
+}
+
+#img-div{
+  background-color: #fff;
+  padding: 8px;
+  text-align: center;
+
+}
+img{
+  display: block;
+  justify-content: center;
+}
+#image{
+  max-width: 100%;
+
+}
+
+#img-caption{
+  font-weight: 400;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.bold{
+  font-weight: 700;
+}
+
+#tribute-info{
+  font-size:17px;
+  text-align: center;
+  margin-top: 60px;
+}
+ul{
+  padding-right: 20px;
+  max-width: 553px;
+  margin: 50px auto;
+}
+li{
+  margin: 16px 0;
+  line-height: 1.5em;
+  font-weight: 300;
+  letter-spacing: 0.01rem;
+}
+
+#pmcomment, #pmname{
+  max-width: 553px;
+  font-style: italic;
+  font-weight: 300;
+  margin: 20px auto;
+  line-height: 1.5rem;
+  letter-spacing: 0.01rem;
+}
+
+#readmore{
+  text-align: center;
+  font-size:1.1rem;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  letter-spacing: 0.01rem;
+}

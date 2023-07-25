@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: darkseagreen;
+    padding: 2rem;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+body{
+    background: linear-gradient(45deg, brown, tomato );
+    margin: 0;
+    padding: 0;
+}
+.container{
+    padding: 2rem;
+    height: calc(100vh - 165px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+button{
+    background-color: blanchedalmond;
+    border: none;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 300px;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+    background-color: lawngreen;
+}
